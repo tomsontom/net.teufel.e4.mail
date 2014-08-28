@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_8bKOkC6lEeS2O-Pf5r9tzw">
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_8bKOkC6lEeS2O-Pf5r9tzw">
+  <imports xsi:type="commands:Command" xmi:id="_NLbpoC6tEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.open" commandName="openCommand"/>
+  <imports xsi:type="commands:Command" xmi:id="_NLbpoS6tEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <imports xsi:type="commands:Command" xmi:id="_NLbpoi6tEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <imports xsi:type="commands:Command" xmi:id="_SZ4rgC6tEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8bKOkS6lEeS2O-Pf5r9tzw" featurename="children" parentElementId="mail.perspectivestack">
     <elements xsi:type="advanced:Perspective" xmi:id="_8bKOki6lEeS2O-Pf5r9tzw" elementId="">
       <children xsi:type="basic:PartSashContainer" xmi:id="_8bKOky6lEeS2O-Pf5r9tzw" horizontal="true">
@@ -12,5 +16,17 @@
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NYhVUC6rEeS2O-Pf5r9tzw" featurename="descriptors" parentElementId="org.eclipse.e4.ide.application">
     <elements xsi:type="basic_1:PartDescriptor" xmi:id="_NYhVUS6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.parts.Part" label="Message" iconURI="platform:/plugin/net.teufel.e4.mail/icons/sample2.gif" allowMultiple="true" category="mainTab" closeable="true" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.parts.Part"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NLbpoy6tEeS2O-Pf5r9tzw" featurename="children" parentElementId="menu:org.eclipse.ui.main.menu">
+    <elements xsi:type="menu:Menu" xmi:id="_NLbppC6tEeS2O-Pf5r9tzw" label="File">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_NLbppS6tEeS2O-Pf5r9tzw" label="Open another Message View" iconURI="platform:/plugin/net.teufel.e4.mail/icons/sample2.gif" command="_NLbpoC6tEeS2O-Pf5r9tzw"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_NLbppi6tEeS2O-Pf5r9tzw" label="Save" iconURI="platform:/plugin/net.teufel.e4.mail/icons/save_edit.png" command="_NLbpoS6tEeS2O-Pf5r9tzw"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_NLbppy6tEeS2O-Pf5r9tzw" label="Quit" command="_NLbpoi6tEeS2O-Pf5r9tzw"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_SZ4rgS6tEeS2O-Pf5r9tzw" featurename="children" parentElementId="menu:org.eclipse.ui.main.menu">
+    <elements xsi:type="menu:Menu" xmi:id="_SZ4rgi6tEeS2O-Pf5r9tzw" label="Help">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_SZ4rgy6tEeS2O-Pf5r9tzw" label="About" command="_SZ4rgC6tEeS2O-Pf5r9tzw"/>
+    </elements>
   </fragments>
 </fragment:ModelFragments>
