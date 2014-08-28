@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_8bKOkC6lEeS2O-Pf5r9tzw">
-  <imports xsi:type="commands:BindingContext" xmi:id="_3AAlwC6rEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.contexts.dialogAndWindow"/>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_8bKOkC6lEeS2O-Pf5r9tzw">
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_8bKOkS6lEeS2O-Pf5r9tzw" featurename="children" parentElementId="mail.perspectivestack">
     <elements xsi:type="advanced:Perspective" xmi:id="_8bKOki6lEeS2O-Pf5r9tzw" elementId="">
       <children xsi:type="basic:PartSashContainer" xmi:id="_8bKOky6lEeS2O-Pf5r9tzw" horizontal="true">
@@ -13,37 +12,5 @@
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NYhVUC6rEeS2O-Pf5r9tzw" featurename="descriptors" parentElementId="org.eclipse.e4.ide.application">
     <elements xsi:type="basic_1:PartDescriptor" xmi:id="_NYhVUS6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.parts.Part" label="Message" iconURI="platform:/plugin/net.teufel.e4.mail/icons/sample2.gif" allowMultiple="true" category="mainTab" closeable="true" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.parts.Part"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_UEjIcC6rEeS2O-Pf5r9tzw" featurename="bindingTables" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:BindingTable" xmi:id="_UEjIcS6rEeS2O-Pf5r9tzw" bindingContext="_3AAlwC6rEeS2O-Pf5r9tzw">
-      <bindings xmi:id="_UEjIci6rEeS2O-Pf5r9tzw" keySequence="M1+Q" command="_lRD3wS6rEeS2O-Pf5r9tzw"/>
-      <bindings xmi:id="_UEjIcy6rEeS2O-Pf5r9tzw" keySequence="M1+O" command="_lRD3wy6rEeS2O-Pf5r9tzw"/>
-      <bindings xmi:id="_UEjIdC6rEeS2O-Pf5r9tzw" keySequence="M1+S" command="_lRD3xS6rEeS2O-Pf5r9tzw"/>
-      <bindings xmi:id="_UEjIdS6rEeS2O-Pf5r9tzw" keySequence="M1+A" command="_lRD3xy6rEeS2O-Pf5r9tzw"/>
-    </elements>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dH3jES6rEeS2O-Pf5r9tzw" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Handler" xmi:id="_dH3jEi6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.handler.quitCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.QuitHandler"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dH3jFC6rEeS2O-Pf5r9tzw" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Handler" xmi:id="_dH3jFS6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.handler.openCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.OpenHandler"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dH3jFy6rEeS2O-Pf5r9tzw" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Handler" xmi:id="_dH3jGC6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.handler.saveCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.SaveHandler"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dH3jGi6rEeS2O-Pf5r9tzw" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Handler" xmi:id="_dH3jGy6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.handler.aboutCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.AboutHandler"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lRD3wC6rEeS2O-Pf5r9tzw" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Command" xmi:id="_lRD3wS6rEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lRD3wi6rEeS2O-Pf5r9tzw" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Command" xmi:id="_lRD3wy6rEeS2O-Pf5r9tzw" elementId="net.teufel.e4.mail.open" commandName="openCommand"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lRD3xC6rEeS2O-Pf5r9tzw" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Command" xmi:id="_lRD3xS6rEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
-  </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_lRD3xi6rEeS2O-Pf5r9tzw" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
-    <elements xsi:type="commands:Command" xmi:id="_lRD3xy6rEeS2O-Pf5r9tzw" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
   </fragments>
 </fragment:ModelFragments>
