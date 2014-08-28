@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_xDmxYC6uEeS2O-Pf5r9tzw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxYS6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxYi6uEeS2O-Pf5r9tzw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxYy6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxZC6uEeS2O-Pf5r9tzw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxZS6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxZi6uEeS2O-Pf5r9tzw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxZy6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxaC6uEeS2O-Pf5r9tzw" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxaS6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxai6uEeS2O-Pf5r9tzw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxay6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxbC6uEeS2O-Pf5r9tzw" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xDmxbS6uEeS2O-Pf5r9tzw" featurename="addons" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="application:Addon" xmi:id="_xDmxbi6uEeS2O-Pf5r9tzw" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  </fragments>
+</fragment:ModelFragments>

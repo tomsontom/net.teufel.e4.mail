@@ -15,7 +15,18 @@
                name="appName"
                value="net.teufel.e4.mail.app.swt">
          </property>
+         <property
+               name="applicationXMI"
+               value="net.teufel.e4.mail/Application.e4xmi">
+         </property>
       </product>
    </extension>
-
+   
+<extension
+         id="net.teufel.e4.mail.app.swt.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
 </plugin>

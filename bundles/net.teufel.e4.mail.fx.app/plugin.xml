@@ -5,7 +5,7 @@
 	<product name="Mail Demo" application="org.eclipse.fx.ui.workbench.fx.application" >
 		<property name="appName" value="Mail Demo" />
 		
-		<property name="applicationXMI" value="net.teufel.e4.mail.fx.app/Application.e4xmi" />
+		<property name="applicationXMI" value="net.teufel.e4.mail/Application.e4xmi" />
 		
 		<property name="cssTheme" value="theme.default" />
 		
@@ -16,4 +16,12 @@
 	<theme id="theme.default" basestylesheet="css/default.css" />
 	
 </extension>
+   <extension
+         id="net.teufel.e4.mail.fx.app.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+
 </plugin>
