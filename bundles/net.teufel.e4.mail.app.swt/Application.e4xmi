@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_CcMYoC4REeSU1tpX3TM42g" elementId="org.eclipse.e4.ide.application" bindingContexts="_CcM_sC4REeSU1tpX3TM42g">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_CcMYoC4REeSU1tpX3TM42g" elementId="org.eclipse.e4.ide.application" bindingContexts="_CcM_sC4REeSU1tpX3TM42g">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_CcMYoS4REeSU1tpX3TM42g" label="e4 Product" width="500" height="400">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_CcM_xy4REeSU1tpX3TM42g" elementId="mail.perspectivestack"/>
     <mainMenu xmi:id="_CcM_wC4REeSU1tpX3TM42g" elementId="menu:org.eclipse.ui.main.menu"/>
-    <trimBars xmi:id="_CcNmwi4REeSU1tpX3TM42g">
-      <children xsi:type="menu:ToolBar" xmi:id="_CcNmwy4REeSU1tpX3TM42g" elementId="toolbar:org.eclipse.ui.main.toolbar">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_CcNmxC4REeSU1tpX3TM42g" iconURI="platform:/plugin/net.teufel.e4.mail/icons/sample2.gif" command="_CcM_ty4REeSU1tpX3TM42g"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_CcNmxS4REeSU1tpX3TM42g" iconURI="platform:/plugin/net.teufel.e4.mail/icons/save_edit.png" command="_CcM_ui4REeSU1tpX3TM42g"/>
-      </children>
-    </trimBars>
+    <trimBars xmi:id="_CcNmwi4REeSU1tpX3TM42g" elementId="mail.trimtop"/>
   </children>
   <handlers xmi:id="_CcM_tC4REeSU1tpX3TM42g" elementId="net.teufel.e4.mail.handler.quitCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.QuitHandler" command="_CcM_sy4REeSU1tpX3TM42g"/>
   <handlers xmi:id="_CcM_uC4REeSU1tpX3TM42g" elementId="net.teufel.e4.mail.handler.openCommand" contributionURI="bundleclass://net.teufel.e4.mail/net.teufel.e4.mail.handlers.OpenHandler" command="_CcM_ty4REeSU1tpX3TM42g"/>

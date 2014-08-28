@@ -29,4 +29,10 @@
       <children xsi:type="menu:HandledMenuItem" xmi:id="_SZ4rgy6tEeS2O-Pf5r9tzw" label="About" command="_SZ4rgC6tEeS2O-Pf5r9tzw"/>
     </elements>
   </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_fX1vsC6tEeS2O-Pf5r9tzw" featurename="children" parentElementId="mail.trimtop">
+    <elements xsi:type="menu:ToolBar" xmi:id="_fX1vsS6tEeS2O-Pf5r9tzw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_fX1vsi6tEeS2O-Pf5r9tzw" iconURI="platform:/plugin/net.teufel.e4.mail/icons/sample2.gif" command="_NLbpoC6tEeS2O-Pf5r9tzw"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_fX1vsy6tEeS2O-Pf5r9tzw" iconURI="platform:/plugin/net.teufel.e4.mail/icons/save_edit.png" command="_NLbpoS6tEeS2O-Pf5r9tzw"/>
+    </elements>
+  </fragments>
 </fragment:ModelFragments>
